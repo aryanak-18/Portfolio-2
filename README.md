@@ -35,7 +35,6 @@ Run the development server:
 ```bash
 npm start
 ```
-````
 
 Visit `http://localhost:3000` in your browser to view the portfolio site.
 
