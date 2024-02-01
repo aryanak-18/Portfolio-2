@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-white">
       <div>
         <Link to="home" smooth={true} duration={500}>
-          <img src={Logo} alt="Logo" style={{ width: "75px" }} />
+          <img src={Logo} className="cursor-pointer" alt="Logo" style={{ width: "75px" }} />
         </Link>
       </div>
 
