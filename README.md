@@ -1,4 +1,3 @@
-````markdown
 # Portfolio
 
 Welcome to the repository for my personal portfolio site! This project is built with React, Tailwind CSS.
@@ -48,7 +47,3 @@ Feel free to reach out for any questions, feedback, or collaboration opportuniti
 - LinkedIn: [Aryan Kumar](https://www.linkedin.com/in/aryan-kumar-409361229/)
 
 Thank you for visiting my portfolio repository!
-
-```
-
-```
