@@ -25,45 +25,49 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group hover:opacity-100 justify-center items-center mx-auto">
+            <div className="opacity-0 group hover:opacity-100 justify-center items-center mx-auto w-full h-full">
+              <div className="inset-y-1/4 relative w-fit mx-auto">
               <span className="text-xl font-bold text-white tracking-wider items-center">
                 Node, Express & Mongo
               </span>
               <div className="pt-8 text-center">
                 <a href="/" target="5">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/aryanak-18/Natours-API" target="6">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Code
                   </button>
                 </a>
               </div>
+              </div>
             </div>
           </div>
-
+          {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${PlacePicker})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group hover:opacity-100 ">
-              <span className="text-xl font-bold text-white tracking-wider">
-                React & Node
+            <div className="opacity-0 group hover:opacity-100 justify-center items-center mx-auto w-full h-full">
+              <div className="inset-y-1/4 relative w-fit mx-auto">
+              <span className="text-xl font-bold text-white tracking-wider items-center ml-2">
+                React.js & Node.js
               </span>
               <div className="pt-8 text-center">
-                <a href="https://placepicker-react-node.vercel.app/" target="7">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href="/" target="5">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/aryanak-18/PlacePicker-React-Node" target="8">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href="https://github.com/aryanak-18/Natours-API" target="6">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Code
                   </button>
                 </a>
+              </div>
               </div>
             </div>
           </div>
@@ -73,45 +77,23 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group hover:opacity-100">
-              <span className="text-xl font-bold text-white tracking-wider">
-                Node.js App
+            <div className="opacity-0 group hover:opacity-100 justify-center items-center mx-auto w-full h-full">
+              <div className="inset-y-1/4 relative w-fit mx-auto">
+              <span className="text-xl font-bold text-white tracking-wider items-center ml-2">
+                Node.js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://node-farm-eight.vercel.app/" target="9">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href="/" target="5">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/aryanak-18/Node-Farm" target="10">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href="https://github.com/aryanak-18/Natours-API" target="6">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Code
                   </button>
                 </a>
               </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${Portfolio1})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group hover:opacity-100">
-              <span className="text-xl font-bold text-white tracking-wider">
-                HTML, CSS & JS
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://aryanak-18.github.io/Portfolio/" target="11">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/aryanak-18/Portfolio" target="12">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
               </div>
             </div>
           </div>
@@ -121,45 +103,75 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group hover:opacity-100">
-              <span className="text-xl font-bold text-white tracking-wider">
-                React.js App
+            <div className="opacity-0 group hover:opacity-100 justify-center items-center mx-auto w-full h-full">
+              <div className="inset-y-1/4 relative w-fit mx-auto">
+              <span className="text-xl font-bold text-white tracking-wider items-center ml-2">
+                React.js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://expensetrackingwebapp.netlify.app/" target="13">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href="/" target="5">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/aryanak-18/Expense-Tracking-WebApp" target="14">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href="https://github.com/aryanak-18/Natours-API" target="6">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Code
                   </button>
                 </a>
               </div>
+              </div>
             </div>
           </div>
-
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${Portfolio1})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group hover:opacity-100 justify-center items-center mx-auto w-full h-full">
+              <div className="inset-y-1/4 relative w-fit mx-auto">
+              <span className="text-xl font-bold text-white tracking-wider items-center ml-2">
+                HTML, CSS & JS
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/" target="5">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/aryanak-18/Natours-API" target="6">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
+                    Code
+                  </button>
+                </a>
+              </div>
+              </div>
+            </div>
+          </div>
+          {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${ElegantClothing})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group hover:opacity-100">
-              <span className="text-xl font-bold text-white tracking-wider">
-                React.js App
+            <div className="opacity-0 group hover:opacity-100 justify-center items-center mx-auto w-full h-full">
+              <div className="inset-y-1/4 relative w-fit mx-auto">
+              <span className="text-xl font-bold text-white tracking-wider items-center ml-2">
+                React.js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://elegant-clothing.netlify.app/" target="15">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href="/" target="5">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/aryanak-18/Elegant-Clothing" target="16">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href="https://github.com/aryanak-18/Natours-API" target="6">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Code
                   </button>
                 </a>
+              </div>
               </div>
             </div>
           </div>
