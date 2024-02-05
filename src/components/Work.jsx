@@ -57,7 +57,7 @@ const Work = () => {
                 React.js & Node.js
               </span>
               <div className="pt-8 text-center">
-                <a href="/" target="5">
+                <a href="https://placepicker-react-node.vercel.app/" target="5">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Demo
                   </button>
@@ -83,7 +83,7 @@ const Work = () => {
                 Node.js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/" target="5">
+                <a href="https://node-farm-eight.vercel.app/" target="5">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Demo
                   </button>
@@ -109,7 +109,7 @@ const Work = () => {
                 React.js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/" target="5">
+                <a href="https://expensetrackingwebapp.netlify.app/" target="5">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Demo
                   </button>
@@ -135,7 +135,7 @@ const Work = () => {
                 HTML, CSS & JS
               </span>
               <div className="pt-8 text-center">
-                <a href="/" target="5">
+                <a href="https://aryanak-18.github.io/Portfolio/" target="5">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Demo
                   </button>
@@ -161,7 +161,7 @@ const Work = () => {
                 React.js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/" target="5">
+                <a href="https://elegant-clothing.netlify.app/" target="5">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Demo
                   </button>
