@@ -31,7 +31,7 @@ const Work = () => {
                 Node, Express & Mongo
               </span>
               <div className="pt-8 text-center">
-                <a href="/" target="5">
+                <a href="https://natours-cye6.onrender.com/" target="5">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
                     Demo
                   </button>
