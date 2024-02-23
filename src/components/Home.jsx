@@ -2,10 +2,53 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import DP from "../assets/DP-2.jpg";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
+      <div className="flex lg:hidden absolute flex-col lg:top-[35%] left-0 top-[9.5%]">
+        <ul>
+          <li className="w-[160px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 h-auto p-4">
+            <a
+              className="flex justify-between items-center w-full text-white"
+              href="https://www.linkedin.com/in/aryan-kumar-409361229/"
+              target="4"
+            >
+              Linkedin <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] h-auto p-4">
+            <a
+              className="flex justify-between items-center w-full text-white"
+              href="https://github.com/aryanak-18"
+              target="3"
+            >
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] h-auto p-4">
+            <a
+              className="flex justify-between items-center w-full text-white"
+              href="mailto:aryan.ak.work@gmail.com"
+              target="2"
+            >
+              Email <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] h-auto p-4">
+            <a
+              className="flex justify-between items-center w-full text-white"
+              href="https://drive.google.com/file/d/1wvVQTp-puFugEfEjmtvOaGtPfTBURUzu/view?usp=sharing"
+              target="1"
+            >
+              Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <img className="rounded-full w-52 mx-auto max-sm:w-28 max-md:w-40 custom-box-shadow" src={DP} alt="profile-pic"/>
