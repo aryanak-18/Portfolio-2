@@ -21,6 +21,10 @@
   height: 250px;
 }
 
+.img-left-top{
+  background-position: top left;
+}
+
 .content-div:hover {
   background-image: linear-gradient(
       to right,

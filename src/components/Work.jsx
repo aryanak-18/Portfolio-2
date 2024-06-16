@@ -1,5 +1,7 @@
 import React from "react";
 import Natours from "../assets/projects/natours.png";
+import Sociopedia from "../assets/projects/sociopedia.png";
+import Horizon from "../assets/projects/horizon.png";
 import Portfolio1 from "../assets/projects/portfolio-1.png";
 import ElegantClothing from "../assets/projects/elegant-clothing.png";
 import PlacePicker from "../assets/projects/place-picker.png";
@@ -19,6 +21,58 @@ const Work = () => {
 
         {/* Container */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${Sociopedia})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div img-left-top"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group hover:opacity-100 justify-center items-center mx-auto w-full h-full">
+              <div className="inset-y-1/4 relative w-fit mx-auto">
+              <span className="text-xl font-bold text-white tracking-wider items-center">
+                MERN stack
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://sociopedia-aryan18.vercel.app/" target="5">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/aryanak-18/Sociopedia" target="6">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
+                    Code
+                  </button>
+                </a>
+              </div>
+              </div>
+            </div>
+          </div>
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${Horizon})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div img-left-top"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group hover:opacity-100 justify-center items-center mx-auto w-full h-full">
+              <div className="inset-y-1/4 relative w-fit mx-auto">
+              <span className="text-xl font-bold text-white tracking-wider items-center">
+                Next.js, TS, Tailwind
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://horizon-banking-app.vercel.app/" target="5">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/aryanak-18/Horizon-Banking-App" target="6">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300">
+                    Code
+                  </button>
+                </a>
+              </div>
+              </div>
+            </div>
+          </div>
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Natours})` }}
